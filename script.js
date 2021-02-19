@@ -18,4 +18,11 @@ console.log(solutionCamel);
 
 let solutionSnake = solutionCamel.replace(/([A-Z])/g, g => "_" + g.toLowerCase());
 
+/*
+let solutionSnake = solutionCamel.replace(/([A-Z])/g, function (g) {
+    return "_" + g.toLowerCase();
+});
+*/
+
+
 console.log(solutionSnake);
